@@ -55,7 +55,7 @@ The frontend will connect to the backend API automatically (adjust URLs in confi
 
 ## Usage
 
-Once both servers are running, open your browser at `http://localhost:5173` (or your frontend port) to chat with GroqWave: Smooth AI Chats!
+Once both servers are running, open your browser at `http://localhost:5173` (or your frontend port) to chat with GroqWave AI Chatbot.
 
 ## License
 
