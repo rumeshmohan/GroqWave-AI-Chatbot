@@ -1,6 +1,6 @@
 # GroqWave AI Chatbot
 
-GroqWave AI Chatbot is a conversational AI chatbot built using the Groq API. This project includes both the backend API and the frontend UI for seamless interaction.
+GroqWave: Smooth AI Chats is a conversational AI chatbot built using the Groq API. This project includes both the backend API and the frontend UI for seamless interaction.
 
 ## Features
 
