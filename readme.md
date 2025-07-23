@@ -1,6 +1,6 @@
-# GroqWave: Smooth AI Chats - AI Chatbot with Backend & Frontend
+# GroqWave AI Chatbot
 
-GroqWave: Smooth AI Chats is a conversational AI chatbot built using the Groq API. This project includes both the backend API and the frontend UI for seamless interaction.
+GroqWave AI Chatbot is a conversational AI chatbot built using the Groq API. This project includes both the backend API and the frontend UI for seamless interaction.
 
 ## Features
 
@@ -9,16 +9,16 @@ GroqWave: Smooth AI Chats is a conversational AI chatbot built using the Groq AP
 - Easy to set up and extend
 
 ## Project Structure
-/backend - Server-side code (Node.js, Python, etc.)
+/backend - Server-side code (Python - FastAPI)
+
 /frontend - Client-side code (React, Vue, or HTML/CSS/JS)
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js and npm/yarn (for both frontend and backend)
+- FastAPI and React (Vue.js)
 - Groq API credentials
-- Optional: Python or other dependencies if your backend uses them
 
 ### Setup Backend
 
@@ -26,13 +26,19 @@ GroqWave: Smooth AI Chats is a conversational AI chatbot built using the Groq AP
 cd backend
 
 2. Install dependencies:
-npm install
+python -m venv venv
+source venv/bin/activate # On Linux/macOS
+For Windows, use: .\venv\Scripts\activate
 
-3. Configure environment variables (e.g., `.env`):
+3. Install python dependencies
+pip install -r requirements.txt
+
+4. Configure your Groq API key:
+Create a file named .env in the backend/ directory and add your Groq API key:
 GROQ_API_KEY=your_api_key_here
 
-4. Run the backend server:
-npm start
+5. Run the backend server:
+uvicorn main:app --reload
 
 ### Setup Frontend
 
@@ -43,7 +49,7 @@ cd frontend
 npm install
 
 3. Start the frontend development server:
-npm start
+npm run dev
 
 The frontend will connect to the backend API automatically (adjust URLs in config if needed).
 
