@@ -22,22 +22,22 @@ GroqWave AI Chatbot is a conversational AI chatbot built using the Groq API. Thi
 
 ### Setup Backend
 
-1. Navigate to the backend directory:
+1. Navigate to the backend directory:<br />
 cd backend
 
-2. Install dependencies:
-python -m venv venv
-source venv/bin/activate # On Linux/macOS
+2. Install dependencies:<br />
+python -m venv venv<br />
+source venv/bin/activate # On Linux/macOS<br />
 For Windows, use: .\venv\Scripts\activate
 
-3. Install python dependencies
+3. Install python dependencies<br />
 pip install -r requirements.txt
 
-4. Configure your Groq API key:
-Create a file named .env in the backend/ directory and add your Groq API key:
+4. Configure your Groq API key:<br />
+Create a file named .env in the backend/ directory and add your Groq API key:<br />
 GROQ_API_KEY=your_api_key_here
 
-5. Run the backend server:
+5. Run the backend server:<br />
 uvicorn main:app --reload
 
 ### Setup Frontend
