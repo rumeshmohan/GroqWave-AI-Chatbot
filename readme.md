@@ -33,11 +33,11 @@ For Windows, use: .\venv\Scripts\activate
 3. Install python dependencies<br />
 pip install -r requirements.txt
 
-4. Configure your Groq API key:
-Create a file named .env in the backend/ directory and add your Groq API key:
+4. Configure your Groq API key:<br />
+Create a file named .env in the backend/ directory and add your Groq API key:<br />
 GROQ_API_KEY=your_api_key_here
 
-5. Run the backend server:
+5. Run the backend server:<br />
 uvicorn main:app --reload
 
 ### Setup Frontend
